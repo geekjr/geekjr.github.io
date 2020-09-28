@@ -22,8 +22,12 @@ $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```shell
 $ rustc --version
 ```
-5. Finally, lets install the Tauri Bundler via Cargo:
+5. Then, lets install the Tauri Bundler via Cargo:
 ```shell
 $ cargo install tauri-bundler --force
+```
+6. Finally, install npx:
+```shell
+$ npm install -g npx
 ```
 Thats it! The setup is complete. You can now jump to the building app section. 
