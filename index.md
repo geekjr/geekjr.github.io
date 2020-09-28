@@ -38,3 +38,4 @@ if (isAwesome){
 }
 ```
 [link](added.md){:target="_blank" rel="noopener"}
+{% include_relative MacSetup.md %}
