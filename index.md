@@ -1,11 +1,13 @@
 ## Welcome to my site
 
-To install Taruri on Mac, you will need to install [homebrew](https://brew.sh/). You can do that by running 
+To install Taruri on Mac, you will need to first install [homebrew](https://brew.sh/) if you don't have it installed alredy. You can do that by running: 
 ```shell 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Once you have homebrew installed, you need to install the Xcode command line tools. That can be done with the following command:
+```shell 
+$ xcode-select --install
+```
 
 ```javascript
 if (isAwesome){
