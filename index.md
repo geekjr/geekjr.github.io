@@ -26,7 +26,7 @@ $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```shell
 $ rustc --version
 ```
-6. Finally, lets install the Tauri Bundler via cargo:
+6. Finally, lets install the Tauri Bundler via Cargo:
 ```shell
 $ cargo install tauri-bundler --force
 ```
