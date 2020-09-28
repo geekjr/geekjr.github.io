@@ -30,6 +30,7 @@ $ rustc --version
 ```shell
 $ cargo install tauri-bundler --force
 ```
+Thats it! The setup is complete. You can now jump to the building app section. 
 
 ```javascript
 if (isAwesome){
