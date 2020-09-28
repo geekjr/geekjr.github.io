@@ -1,6 +1,5 @@
 # Turn almost any React web application into a desktop app using Tauri
 
-## Windows setup
 {% include_relative WinSetup.md %}
 {% include_relative MacSetup.md %}
 {% include_relative LinuxSetup.md %}
@@ -12,7 +11,3 @@ if (isAwesome){
 }
 ```
 [link](added.md){:target="_blank" rel="noopener"}
-
-hi
-## Quick links:
-  [Windows](#Windows-setup)
