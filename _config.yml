@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 title: Welcome to my website!
 description: Here i have things
+markdown: kramdown
