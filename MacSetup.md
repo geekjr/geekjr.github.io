@@ -1,6 +1,6 @@
 ## Mac setup
 Note: It you already have Rust installed, it is a good idea to update it with `$ rustup update stable` before skipping to step 6. If you have any of the other things alredy installed, you can skip them as needed. 
-The only prerequisite to install Taruri on Mac(besides Node.js) is [homebrew](https://brew.sh/). If you don't have it installed alredy, you can install it by running: 
+The only prerequisite to install Taruri on Mac(besides Node.js with npm) is [homebrew](https://brew.sh/). If you don't have it installed alredy, you can install it by running: 
 ```shell 
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
