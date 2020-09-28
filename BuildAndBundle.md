@@ -1,4 +1,4 @@
-## Building and Bundleing the app
+## Building and Bundling the app
 1. First, create the app:
 ```shell
 $ npx create-react-app tauri-tutorial
