@@ -3,7 +3,7 @@
 {% include_relative WinSetup.md %}
 {% include_relative MacSetup.md %}
 {% include_relative LinuxSetup.md %}
-
+{% include_relative BuildAndBundle.md %}
 
 ```javascript
 if (isAwesome){
