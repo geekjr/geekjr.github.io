@@ -12,4 +12,4 @@ if (isAwesome){
   return true
 }
 ```
-[link](added.md)
+[link](added.md){:target="_blank" rel="noopener"}
