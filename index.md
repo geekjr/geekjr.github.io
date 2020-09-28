@@ -12,3 +12,4 @@ if (isAwesome){
   return true
 }
 ```
+[link](added.md)
