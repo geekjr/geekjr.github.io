@@ -2,6 +2,7 @@
 ## Quick links:
   [Windows](#Windows-setup)
 
+## Windows setup
 {% include_relative WinSetup.md %}
 {% include_relative MacSetup.md %}
 {% include_relative LinuxSetup.md %}
