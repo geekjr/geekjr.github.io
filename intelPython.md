@@ -3,7 +3,7 @@
 ## In this article, I wil show you how you can get a huge speedup for Machine Learning/Data Science tasks using Intel Python. 
 
 ## What is Intel Python?
-Intel python is a version of Python that is optimized to run on Intel CPUs. This optimization yields significantly faster speeds when compared to normal Python, especially in Machine Learning/Data Science tasks. 
+Intel Python is a version of Python that is optimized to run on Intel CPUs. This optimization yields significantly faster speeds when compared to normal Python, especially in Machine Learning/Data Science tasks. 
 
 ## Windows installation
 1. Download the files from [here](https://software.intel.com/content/www/us/en/develop/tools/distribution-for-python.html)
