@@ -47,7 +47,8 @@ If you dont get any error, that means that modin was installed sucessfully. Abov
 Some packages might support Intel Optimizations but do not have prebuild versions in the Intel Anaconda channel. One example of this is OpenCV. In this case, you will have to build from source, and while you are building form source, you have to set certin flags. In the case of OpenCV, you will have to set the following flags. You will need to have Intel MKL(installed above) and [Intel TBB](https://anaconda.org/intel/tbb) installed:
 ```
 DWITH_MKL=ON
-DMKL_USE_MULTITHREAD=ON -DMKL_WITH_TBB=ON
+DMKL_USE_MULTITHREAD=ON 
+DMKL_WITH_TBB=ON
 DWITH_TBB=ON
 ```
 For other packages, you can consult the package's documentation. 
