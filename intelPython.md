@@ -26,3 +26,19 @@ Intel python is a version of Python that is optimized to run on Intel CPUs. This
 4. type `bash setup_intel_python.sh`
 5. COMMAND TO ACTIVATE
 
+## Installing Intel Python optimized packages
+Once we have Intel Python installed, its time to install some Intel Python Optimized Packages. Intel has a Anaconda Cloud [channel](https://anaconda.org/intel/repo) that has a number of prebuilt Intel Python optimized packages. Lets install some:
+1. First, we need update Conda:
+ `conda update conda`
+ 2. Next, we need to add the Intel channel to our Conda sources:
+ `conda config --add channels intel`
+ 3. Then, we need to install some libraries that allow us to take advantge of our Intel CPU:
+ `conda install mkl mkl-devel mkl-static mkl-include`
+ 4. Finally lets install a package, in this case modin, which will allow us to take advantage of our Intel CPU in Pandas:
+ `conda install -c intel modin`
+ 5. Make sure that it was installed sucessfully:
+ ```python
+ python
+ import modin.pandas as pd
+ ```
+If you dont get any error, that means that modin was installed sucessfully. Above, we just installed **one** of the many Intel Python optimized packages. You can view the full list in the above list. Note: For some reason, not all of the packages show up in the above list. To find a package that may not be listed in the above list, you can search on Google for the name of the package, followed by Intel Anaconda. For example, "sklean Intel Anaconda". The result should be one of the first links. You can install that pacakge with the command provided on that specific page. 
