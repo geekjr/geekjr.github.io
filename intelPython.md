@@ -42,3 +42,15 @@ Once we have Intel Python installed, its time to install some Intel Python Optim
  import modin.pandas as pd
  ```
 If you dont get any error, that means that modin was installed sucessfully. Above, we just installed **one** of the many Intel Python optimized packages. You can view the full list in the above list. Note: For some reason, not all of the packages show up in the above list. To find a package that may not be listed in the above list, you can search on Google for the name of the package, followed by Intel Anaconda. For example, "sklean Intel Anaconda". The result should be one of the first links. You can install that pacakge with the command provided on that specific page. 
+
+## What about packages that do not have prebuilt versions in the Intel Anaconda Channel?
+Some packages might support Intel Optimizations but do not have prebuild versions in the Intel Anaconda channel. One example of this is OpenCV. In this case, you will have to build from source, and while you are building form source, you have to set certin flags. In the case of OpenCV, you will have to set the following flags. You will need to have Intel MKL(installed above) and [Intel TBB](https://anaconda.org/intel/tbb) installed:
+```
+DWITH_MKL=ON
+DMKL_USE_MULTITHREAD=ON -DMKL_WITH_TBB=ON
+DWITH_TBB=ON
+```
+For other packages, you can consult the package's documentation. 
+
+## Performance
+<FILL PERFORMANCE BENCHMARKS HERE>
