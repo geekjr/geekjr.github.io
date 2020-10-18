@@ -59,6 +59,7 @@ All of these tests were conducted on a Late 2011 13 Inch MacBook Pro with:
 * 16GB RAM
 * Samsung 860 EVO SSD
 * macOS Mojave 10.14.6
+
 During the tests, nothing else was running in the background. I ran the tests from the terminal no ensure that there was no IDE overhead. The benchmark scripts that I used can be found [here](https://github.com/geekjr/intelPythonBenchmarks)
 ![](sklearn.png?raw=true)
 As seen above, the time it takes to run the [program ](https://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_digits.html) is reduced by 43% when using Intel Python
