@@ -67,3 +67,5 @@ As seen above, the time it takes to run the [program ](https://scikit-learn.org/
 The training time for the [sample demo ](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html#sphx-glr-beginner-blitz-cifar10-tutorial-py)is reduced by 17% when using Intel Python. 
 ![](tensorflow.png?raw=true)
 TensorFlow sees the largest improvement, with a 75% reduction in training time when running the [sample ](https://www.tensorflow.org/tutorials/keras/classification) image classification demo. 
+
+Overall, there was a 45% imporvemnt to speed when using Intel Python. 
