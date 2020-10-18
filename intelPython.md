@@ -54,5 +54,4 @@ DWITH_TBB=ON
 For other packages, you can consult the package's documentation. 
 
 ## Performance
-<FILL PERFORMANCE BENCHMARKS HERE>
-![alt text](https://github.com/geekjr/intelPythonBenchmarks/blob/main/graphs/tensorflow.png "Title")
+![](sklearn.png?raw=true)
