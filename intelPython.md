@@ -54,4 +54,15 @@ DWITH_TBB=ON
 For other packages, you can consult the package's documentation. 
 
 ## Performance
+All of these tests were conducted on a Late 2011 MacBook Pro with
+* [Intel i7-2640M, ](https://ark.intel.com/content/www/us/en/ark/products/53464/intel-core-i7-2640m-processor-4m-cache-up-to-3-50-ghz.html) which is a 2.8GHz dual core processor
+* 16GB RAM
+* Samsung 860 EVO SSD
+* macOS Mojave 10.14.6
+During the tests, nothing else was running in the background. I ran the tests from the terminal no ensure that there was no IDE overhead. The benchmark scripts that I used can be found [here](https://github.com/geekjr/intelPythonBenchmarks)
 ![](sklearn.png?raw=true)
+As seen above, the time it takes to run the [program ](https://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_digits.html) is reduced by 43% when using Intel Python
+![](pytorch.png?raw=true)
+The training time for the [sample demo ](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html#sphx-glr-beginner-blitz-cifar10-tutorial-py)is reduced by 17% when using Intel Python. 
+![](tensorflow.png?raw=true)
+TensorFlow sees the largest improvement, with a 75% reduction in training time when running the [sample ](https://www.tensorflow.org/tutorials/keras/classification) image classification demo. 
