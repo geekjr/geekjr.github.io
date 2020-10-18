@@ -68,4 +68,4 @@ The training time for the [sample demo ](https://pytorch.org/tutorials/beginner/
 ![](tensorflow.png?raw=true)
 TensorFlow sees the largest improvement, with a whopping 75% reduction in training time when running the [sample ](https://www.tensorflow.org/tutorials/keras/classification) image classification demo. 
 
-Overall, there was a 45% imporvemnt to speed when using Intel Python. 
+Overall, there was a 45% imporvemnt to speed when using Intel Python. However, some libraries see larger improvements then others.
