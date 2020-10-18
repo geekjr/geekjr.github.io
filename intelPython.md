@@ -54,7 +54,7 @@ DWITH_TBB=ON
 For other packages, you can consult the package's documentation. 
 
 ## Performance
-All of these tests were conducted on a Late 2011 MacBook Pro with
+All of these tests were conducted on a Late 2011 13 Inch MacBook Pro with:
 * [Intel i7-2640M, ](https://ark.intel.com/content/www/us/en/ark/products/53464/intel-core-i7-2640m-processor-4m-cache-up-to-3-50-ghz.html) which is a 2.8GHz dual core processor
 * 16GB RAM
 * Samsung 860 EVO SSD
