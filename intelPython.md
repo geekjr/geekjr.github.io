@@ -74,12 +74,12 @@ The training time for the [sample demo ](https://pytorch.org/tutorials/beginner/
 
 ### TensorFlow
 ![](tensorflow.png?raw=true)
-TensorFlow sees a large amount of improvement, with a whopping 75% reduction in training time when running the [sample ](https://www.tensorflow.org/tutorials/keras/classification) image classification demo. 
+TensorFlow sees the largest amount of improvement, with a whopping 75% reduction in training time when running the [sample ](https://www.tensorflow.org/tutorials/keras/classification) image classification demo. 
 
 
 ### Pandas
 ![](pandas.png?raw=true)
-Pandas sees the largest improvement, with a staggering 200% reduction in training time when loading a 3.22GB CSV.
+Pandas sees a large amount, with a staggering 66% reduction in training time when loading a 3.22GB CSV.
 
 
 Overall, there was a 83% improvemnt to speed when using Intel Python. However, some libraries see larger improvements then others.
