@@ -70,4 +70,4 @@ TensorFlow sees a large amount of improvement, with a whopping 75% reduction in 
 ![](pandas.png?raw=true)
 Pandas sees the largest improvement, with a staggering 200% reduction in training time when loading a 3.22GB CSV.
 
-Overall, there was a 83% imporvemnt to speed when using Intel Python. However, some libraries see larger improvements then others.
+Overall, there was a 83% improvemnt to speed when using Intel Python. However, some libraries see larger improvements then others.
