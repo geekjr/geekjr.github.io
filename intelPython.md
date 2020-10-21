@@ -1,4 +1,4 @@
-# How to get a huge speedup with Machine Learning/Data Science Tasks on computers with an Intel CPU
+# How to improve Machine Learning and Data Science performance using Intel Python
 
 ## In this article, I wil show you how you can get a huge speedup for Machine Learning/Data Science tasks using Intel Python. 
 
