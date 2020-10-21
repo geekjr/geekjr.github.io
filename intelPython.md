@@ -59,23 +59,25 @@ All of these tests were conducted on a Late 2011 13 Inch MacBook Pro with:
 * 16GB RAM
 * Samsung 860 EVO SSD
 * macOS Mojave 10.14.6
-
-
 During the tests, nothing else was running in the background. I ran the tests from the terminal no ensure that there was no IDE overhead. The benchmark scripts that I used can be found [here.](https://github.com/geekjr/intelPythonBenchmarks)
 
 
+### Sklearn
 ![](sklearn.png?raw=true)
 As seen above, the time it takes to run the [program ](https://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_digits.html) is reduced by an impressive 43% when using Intel Python
 
 
+### PyTorch
 ![](pytorch.png?raw=true)
 The training time for the [sample demo ](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html#sphx-glr-beginner-blitz-cifar10-tutorial-py)is reduced by a modest 17% when using Intel Python. 
 
 
+### TensorFlow
 ![](tensorflow.png?raw=true)
 TensorFlow sees a large amount of improvement, with a whopping 75% reduction in training time when running the [sample ](https://www.tensorflow.org/tutorials/keras/classification) image classification demo. 
 
 
+### Pandas
 ![](pandas.png?raw=true)
 Pandas sees the largest improvement, with a staggering 200% reduction in training time when loading a 3.22GB CSV.
 
